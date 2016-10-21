@@ -3,17 +3,16 @@
   color: white;
 }
 
-.banner{
-  width: 100%;
+.pic{
+  width: 1023px;
+  height: 650px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(238, 240, 233);
   position: relative;
 }
 
 
 .header{
-  border: solid 1px rgb(238, 240, 233);
   height: 100px;
 }
 
@@ -22,8 +21,7 @@
   float: left;
   overflow: hidden;
   height: 100px;
-  width: 200px;
-  background-color: red;
+  width: 220px;
 }
 
 #tags{
@@ -31,13 +29,15 @@
   border: solid 1px rgb(238, 240, 233);
   height: 100px;
   padding-left: 5px;
+  background-color: rgb(6, 9, 33)
 }
 
 #pages{
   float: left;
   overflow: hidden;
   border: solid 1px rgb(238, 240, 233);
-  width: 200px;
+  width: 215px;
+  padding-left: 5px;
 }
 
 #image{
