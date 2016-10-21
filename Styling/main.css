@@ -43,3 +43,12 @@
 #image{
   overflow:hidden;
 }
+
+a{
+  color: rgb(235, 239, 246);
+  text-decoration: none;
+}
+
+a:hover{
+    color: rgb(196, 204, 218);
+}
