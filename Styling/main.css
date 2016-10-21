@@ -1,0 +1,15 @@
+.main{
+  background-color: #150b3e;
+  color: rgb(217, 206, 194);
+}
+.header{
+    color: white;
+}
+
+.background{
+  background-color: rgb(36, 20, 60);
+}
+.banner{
+  height: 50%;
+  width: 100%;
+}
