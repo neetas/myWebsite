@@ -18,8 +18,10 @@
 }
 
 #logo{
+  border: solid 1px rgb(238, 240, 233);
   float: left;
   overflow: hidden;
+  height: 100px;
   width: 200px;
   background-color: red;
 }
@@ -27,6 +29,8 @@
 #tags{
   overflow:hidden;
   border: solid 1px rgb(238, 240, 233);
+  height: 100px;
+  padding-left: 5px;
 }
 
 #pages{
@@ -34,7 +38,6 @@
   overflow: hidden;
   border: solid 1px rgb(238, 240, 233);
   width: 200px;
-  padding: 5px;
 }
 
 #image{
