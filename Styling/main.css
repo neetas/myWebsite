@@ -50,3 +50,9 @@ a{
 a:hover{
     color: rgb(179, 200, 235);
 }
+
+
+li{
+  float: left;
+  padding: 10px;
+}
