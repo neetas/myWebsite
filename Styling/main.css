@@ -31,7 +31,7 @@
   background-color: rgb(237, 231, 205)
 }
 
-#two{
+#tagstwo{
   overflow:hidden;
   height: 45px;
   width: 1023px;
@@ -50,22 +50,54 @@
 }
 
 a{
+  display: block;
   color: rgb(235, 239, 246);
   text-decoration: none;
+  width: 200px;
 }
 
 a:hover{
-    color: rgb(179, 200, 235);
+    color: rgb(22, 54, 125);
+    min-width: 200px;
+    border: solid 1px rgb(33, 43, 131);
+    background-color: rgb(241, 211, 164)
 }
 
-ul{
+.services{
 list-style-type: none;
 margin: 0;
 padding: 0;
 color: rgb(10, 21, 42);
 }
 
-li{
+.services >li{
   float: left;
   padding: 20px;
+}
+
+.genres{
+list-style-type: none;
+margin: 0;
+padding: 0;
+color: rgb(10, 21, 42);
+}
+
+.genres >li{
+  float: left;
+  padding: 20px;
+}
+
+nav{
+  vertical-align: middle;
+}
+
+.navigation{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  font-size: 32px;
+}
+
+.navigation >li{
+  padding-bottom: 10px;
 }
