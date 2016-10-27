@@ -121,6 +121,11 @@ nav{
   padding-bottom: 10px;
 }
 
-.gs{
-  width: 1000px;
+.bubble{
+  border: solid 5px white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: transparent;
 }
