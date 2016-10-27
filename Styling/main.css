@@ -98,7 +98,7 @@ color: rgb(10, 21, 42);
 list-style-type: none;
 margin: 0;
 padding: 0;
-color: rgb(10, 21, 42);
+color: white;
 }
 
 .genres >li{
@@ -119,4 +119,8 @@ nav{
 
 .navigation >li{
   padding-bottom: 10px;
+}
+
+.gs{
+  width: 1000px;
 }
