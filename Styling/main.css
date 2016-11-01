@@ -143,3 +143,7 @@ nav{
 .mainbit{
   background-color: rgb(14, 38, 79);
 }
+
+.header{
+  background-color: rgb(195, 196, 200);
+  margin-top: -10px; !important;
