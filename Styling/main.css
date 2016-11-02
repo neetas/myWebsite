@@ -35,6 +35,10 @@
   margin-left: 20px;
 }
 
+#logo:hover{
+    background-image: url('http://i339.photobucket.com/albums/n442/mcrmy_derick/equalizer.gif');
+}
+
 #tags{
   overflow:hidden;
   height: 45px;
@@ -88,30 +92,6 @@ a.thumbnail:hover{
       font-weight: bold;
       color: white;
       background-size: 200px 200px;
-}
-
-.services{
-list-style-type: none;
-margin: 0;
-padding: 0;
-color: rgb(10, 21, 42);
-}
-
-.services >li{
-  float: left;
-  padding: 20px;
-}
-
-.genres{
-list-style-type: none;
-margin: 0;
-padding: 0;
-color: white;
-}
-
-.genres >li{
-  float: left;
-  padding: 20px;
 }
 
 nav{
