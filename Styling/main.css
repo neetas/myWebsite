@@ -1,5 +1,6 @@
 .background{
     background-color: rgba(14, 24, 69, 0.99);
+    background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern.png');
 }
 .main{
 position: relative;
@@ -86,7 +87,7 @@ position: relative;
 #pages{
   float: left;
   overflow: hidden;
-  width: 400px;
+  width: 380px;
   padding-left: 5px;
 }
 
