@@ -151,8 +151,11 @@ a.thumbnail:hover{
 }
 
 .infopanel{
-  background-color: rgba(202, 205, 210, 0.20);
+  background-color: white;
+  opacity: 0.7;
   border: none;
+  border-radius: none;
+  color: rgb(32, 48, 83);
 }
 
 .header{
