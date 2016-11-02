@@ -145,5 +145,6 @@ nav{
 }
 
 .header{
-  background-color: rgb(195, 196, 200);
+  background-color: rgba(195, 196, 200, 0.27);
   margin-top: -10px; !important;
+  padding-top: 10px;
