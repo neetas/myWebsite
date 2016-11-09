@@ -1,6 +1,7 @@
 .background{
     background-color: rgba(14, 24, 69, 0.99);
-    background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern2.png');
+    background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern.png');
+    /*background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6tXUF3NaKNynhFEtCWCiUeDxdxVyX5tMnplAemEHvzGqFnVE8');*/
 }
 .main{
 position: relative;
@@ -18,7 +19,9 @@ position: relative;
   width: 100%;
   height: 100%;
   background-color:   rgba(52, 193, 231, 0.94);
+  /*background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern.png');*/
   background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern.png');
+  /*background-image: url('http://previews.123rf.com/images/sylverarts/sylverarts1410/sylverarts141001547/32723049-Geometric-vector-abstract-3D-complicated-op-art-backdrop-eps10-internet-tech-illustration-best-for-w-Stock-Vector.jpg');*/
   z-index: -1;
   opacity: 0.1;
 }
@@ -152,7 +155,7 @@ a.thumbnail:hover{
 
 .infopanel{
   background-color: white;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
   border: none;
   border-radius: none;
   color: rgb(32, 48, 83);
