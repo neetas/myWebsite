@@ -15,30 +15,35 @@
     <div class="container">
       <div class="col-xs-6 col-md-9">
         <div class="examples">
-          <div class="example">
-            <div class="title">
-              <div id="name">
-                {{title}}
+          {{#examples}}
+            <div class="example">
+              <div class="title">
+                <div id="name">
+                  {{title}}
+                </div>
+                <div id="labels">
+                  <span class="label label-default">{{tag0}}</span>
+                  <span class="label label-default">{{tag1}}</span>
+                  <span class="label label-default">{{tag2}}</span>
+                  <span class="label label-default">{{tag3}}</span>
+                  <span class="label label-default">{{tag4}}</span>
+                  <span class="label label-default">{{tag5}}</span>
+                </div>
               </div>
-              <div id="labels">
-                <span class="label label-default">{{tag0}}</span>
-                <span class="label label-default">{{tag1}}</span>
-                <span class="label label-default">{{tag2}}</span>
-                <span class="label label-default">{{tag3}}</span>
+              <div class="subtitle">
+                {{subtitle}}
+              </div>
+              <div class="description">
+                {{description}}
+              </div>
+              <div class="audio">
+                <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src=
+                "{{audiolink}}">
+                </iframe>
+                {{audiolink2}}
               </div>
             </div>
-            <div class="subtitle">
-              {{subtitle}}
-            </div>
-            <div class="description">
-              {{description}}
-            </div>
-            <div class="audio">
-              <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src=
-              "{{audiolink}}">
-              </iframe>
-            </div>
-          </div>
+          {{/examples}}
         </div>
       </div>
     </div>
