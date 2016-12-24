@@ -10,179 +10,79 @@
 <link rel="stylesheet" href="Styling/showreel.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<body class= "background">
-  <div class="main">
-    <div class="page-header header">
-      <div class="row">
-        <div class="col-xs-3 col-md-3" id="logo">
-          <h1><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> N E E T A</h1>
-        </div>
-        <div id="services">
-        <h1> <small > ARTIST : COMPOSER : MUSICIAN : PRODUCER : MIX ENGINEER : SOUND DESIGN   </small>
-          <h5> specialising in: electronica, downtempo, chill, jazz, soul, hip-hop, eastern, classical, orchestral, acoustic, folk </h5>
-        </div>
+<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="js/handlebars.js"></script>
+<script id="entry-template" type="text/x-handlebars-template">
+<div class="main">
+  <div class="page-header header">
+    <div class="row">
+      <div class="col-xs-3 col-md-3" id="logo">
+        <h1><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> N E E T A</h1>
+      </div>
+      <div id="services">
+        <h1> <small> ARTIST : COMPOSER : MUSICIAN : PRODUCER : MIX ENGINEER : SOUND DESIGN   </small>
+            <h5> specialising in: electronica, downtempo, chill, jazz, soul, hip-hop, eastern, classical, orchestral, acoustic, folk </h5>
       </div>
     </div>
-    <div class="content">
-      <div id="pages">
-        <ul class="nav nav-pills nav-stacked">
-          <li class><a data-toggle="pill" href="#about"> about</a></li>
-          <li class><a data-toggle="pill" href="#showreel">showreel</a></li>
-          <li class><a data-toggle="pill" href="#contact">contact </a></li>
-          <!-- <li><a data-toggle="pill" href="#tech">tech (?) </a></li> -->
-        </ul>
-      </div>
-      <div class="row">
-        <div class="container">
-          <div class="col-xs-6 col-md-9">
-            <div class="tab-content">
-                    <div id="about" class="tab-pane fade">
-                      <h2> ABOUT</h2>
-                        <p>Freelance vocalist, musician, producer & mix engineer working mainly with electronic music. Using Logic Pro & Ableton. I do the musix with a computer and some gadgetz. </p>
+  </div>
+  <div class="content">
+    <div id="pages">
+      <ul class="nav nav-pills nav-stacked">
+        <li class><a data-toggle="pill" href="#about"> about</a></li>
+        <li class><a data-toggle="pill" href="#showreel">showreel</a></li>
+        <li class><a data-toggle="pill" href="#contact">contact </a></li>
+        <!-- <li><a data-toggle="pill" href="#tech">tech (?) </a></li> -->
+      </ul>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-xs-6 col-md-9">
+          <div class="tab-content">
+            <div id="about" class="tab-pane fade">
+              <h2> ABOUT </h2>
+              <p>Freelance vocalist, musician, producer & mix engineer working mainly with electronic music. Using Logic Pro & Ableton. I do the musix with a computer and some gadgetz. </p>
+            </div>
+            <div id="showreel" class="tab-pane fade">
+              <h2> SHOWREEL </h2>
+              <div class="examples">
+                {{#examples}}
+                  <div class="example">
+                    <div class="title">
+                      <div id="name">
+                        {{title}}
+                      </div>
+                      <div id="labels">
+                        <span class="label label-default">{{tag0}}</span>
+                        <span class="label label-default">{{tag1}}</span>
+                        <span class="label label-default">{{tag2}}</span>
+                        <span class="label label-default">{{tag3}}</span>
+                        <span class="label label-default">{{tag4}}</span>
+                        <span class="label label-default">{{tag5}}</span>
+                      </div>
                     </div>
-                    <div id="showreel" class="tab-pane fade">
-                      <h2> SHOWREEL</h2>
-                      <div class="examples">
-                        <div class="example">
-                          <div class="title">
-                            <div id="name"> AZURE SHORES
-                            </div>
-                            <div id="labels">
-                              <span class="label label-default">Composition</span>
-                                <span class="label label-default">Production</span>
-                                <span class="label label-default">Mixing</span>
-                                <span class="label label-default">Sound Design</span>
-                            </div>
-                          </div>
-                          <div class="subtitle">
-                            Sample Pack for Launchpad app/Novation.
-                          </div>
-                          <div class="description">
-                          'Azure Shores brings a Future Bass inspired soundscape to Launhpad, with a slight tropical twinge. Dive in.'
-                          </div>
-                          <div class="audio">
-                            <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292485237&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                          </div>
-                        </div>
-
-                        <div class="example">
-                          <div class="title">
-                            <div id="name"> HYBRID ELECTRONICA
-                            </div>
-                            <div id="labels">
-                              <span class="label label-default">PRODUCTION</span>
-                              <span class="label label-default">COMPOSITION</span>
-                              <span class="label label-default">MIXING</span>
-                              <span class="label label-default">MASTER</span>
-                              <span class="label label-default">VOCALS</span>
-                              <span class="label label-default">SOUND DESIGN</span>
-                            </div>
-                            <BR>
-                            <div class="subtitle">
-                            Sample Pack for FreakyLoops/Famous Audio.
-                            </div>
-                          </div>
-                          <div class="description">
-                          'Hybrid Electronica comes with some truly sophisticated sounds with a mellow funk grooves, created exclusively for Famous Audio by Meraqi...rom warm and smooth bass to swung and corrupted slo-mo beats, bright and buzzy synths to lo-fi smooth keys, soulful and gritty chords to euphoric plucks, hazy and dusty atmospheric textures to spacey and otherworldly pads, deep and filtered chord movements to crispy ’n’ crunchy snares, soft analogue kicks to found sound percussions, silky arpeggios to elegant melodics, cosmic-style FXs to ethereal vox and organic instrument loops including deep atmospheric guitars, warped pianos, dreamy harps, ethnic violin melodies and emotive mallets - these loops and samples are gonna inspire you to create your next banger!'
-                          </div>
-                          <div class="audio">
-                            <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292258996%3Fsecret_token%3Ds-lb2H1&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                          </div>
-                        </div>
-
-                        <div class="example">
-                          <div class="title">
-                            <div id="name"> UNRELEASED
-                            </div>
-                            <div id="labels">
-                              <span class="label label-default">PRODUCTION</span>
-                              <span class="label label-default">COMPOSITION</span>
-                              <span class="label label-default">MIXING</span>
-                              <span class="label label-default">MASTER</span>
-                              <span class="label label-default">VOCALS</span>
-                              <span class="label label-default">SOUND DESIGN</span>
-                            </div>
-                            <BR>
-                            <div class="subtitle">
-                            Sample Pack for Launchpad app/Novation.
-                            </div>
-                          </div>
-                          <div class="description">
-                            Jazz/chill out/orchestral style pack I designed for Launchpad/Novation. Releasing very soon!
-                          </div>
-                          <div class="audio">
-                            <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292548299%3Fsecret_token%3Ds-jUmSI&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                          </div>
-                        </div>
-
-
-                        <div class="example">
-                          <div class="title">
-                            <div id="name"> MERAQI - CONTOURS
-                            </div>
-                            <div id="labels">
-                              <span class="label label-default">COMPOSITION</span>
-                                <span class="label label-default">PRODUCTION</span>
-                                <span class="label label-default">MIXING</span>
-                                <span class="label label-default">SOUND DESIGN</span>
-                            </div>
-                          </div>
-                          <div class="subtitle">
-                            I am lead vocalist, producer & synth player in the band Meraqi.
-                          </div>
-                          <div class="description">
-                              Not shackled to any one sound, Meraqi's music begins live, weaving together glitchy electronics with soulful songwriting, powerful hooks and instrumental prowess. Deep bass, haunting vocals and grass-roots grooves meet in a kaleidoscopic musical experience falling somewhere between a sweaty underground rave and a smoky late-night vinyl discovery.                        </div>
-                          <div class="audio">
-                            <iframe width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215826112&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>                        </div>
-                          </div>
-
-                          <div class="example">
-                            <div class="title">
-                              <div id="name"> CELESTIAL MOVEMENT
-                              </div>
-                              <div id="labels">
-                                  <span class="label label-default">PRODUCTION</span>
-                                  <span class="label label-default">COMPOSITION</span>
-                                  <span class="label label-default">MIXING</span>
-                                  <span class="label label-default">MASTER</span>
-                                  <span class="label label-default">VOCALS</span>
-                                  <span class="label label-default">SOUND DESIGN</span>
-                              </div>
-                            </div>
-                            <div class="subtitle">
-                              Sample pack for Samplephonics.
-                            </div>
-                            <div class="description">
-                              Created by insanely talented live Electronica outfit Meraqi, this gorgeous collection of ambient electronica loops and samples includes live bass guitars, grainy drum machine loops, chunky acoustic drum sounds, deep Rhodes grooves, haunting pianos, futuristic synth lines, bendy violin melodies and beautiful distinctive female vocals, all of which have been manipulated beyond their traditional form using creative processing techniques.
-                            </div>
-                            <div class="audio">
-                              <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233936993&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                              <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/234814392&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                            </div>
-                          </div>
-                        </div>
-
-                      <!-- <p> Launchpad demo - Azure Shores </p>
-                      <p> BlocsWave demo </p>
-                      <p> Meraqi - Vistas [PRODUCTION] [MIXING] [VOCALS] [SYNTHS] </p>
-                      <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202309673&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                      <p> Meraqi Contours </p>
-                      <p> John Garner Quartet </p>
-                      <p> Sync? </p> -->
-
+                    <div class="subtitle">
+                      {{subtitle}}
                     </div>
-                    <div id="contact" class="tab-pane fade">
-                      <h2> CONTACT</h2>
-                      <p> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  neetamusic@gmail.com </p>
-                      <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 07944337414 </p>
+                    <div class="audio">
+                      <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src=
+                      "{{audiolink}}">
+                      </iframe>
                     </div>
+                  </div>
+                {{/examples}}
+              </div>
+            </div>
+            <div id="contact" class="tab-pane fade">
+              <h2> CONTACT</h2>
+              <p> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  neetamusic@gmail.com </p>
+              <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 07944337414 </p>
+            </div>
           </div>
-          <!-- <div class"col-xs-6 col-md-4"> -->
-        <!-- <img src="https://i1.sndcdn.com/avatars-000102948412-3raxw4-t500x500.jpg" height=250px width=250px;> -->
-          <!-- </div> -->
         </div>
       </div>
     </div>
   </div>
-
+</div>
+</script>
+<body class="background">
 </body>
