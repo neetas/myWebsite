@@ -55,6 +55,18 @@ $(document).ready(function () {
     },
 
     {
+      title: "MERAQI - VISTAS",
+      tag0: "Composition",
+      tag1: "Production",
+      tag2: "Mixing",
+      tag3: "Keys",
+      tag4: "Vocals",
+      subtitle: "I am lead vocalist, producer & synth player in the band Meraqi.",
+      description: "Not shackled to any one sound, Meraqi's music begins live, weaving together glitchy electronics with soulful songwriting, powerful hooks and instrumental prowess. Deep bass, haunting vocals and grass-roots grooves meet in a kaleidoscopic musical experience falling somewhere between a sweaty underground rave and a smoky late-night vinyl discovery.",
+      audiolink: soundcloudUrlStart+"202309673"+soundcloudUrlEnd
+    },
+
+    {
       title: "CELESTIAL MOVEMENT",
       tag0: "Composition",
       tag1: "Production",
