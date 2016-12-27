@@ -16,6 +16,19 @@ $(document).ready(function () {
       description: "Azure Shores brings a Future Bass inspired soundscape to Laucnhpad, with a slight tropical twinge. Dive in.",
       audiolink: soundcloudUrlStart+"292485237"+soundcloudUrlEnd
     },
+
+    {
+      title: "MERAQI - CONTOURS",
+      tag0: "Composition",
+      tag1: "Production",
+      tag2: "Mixing",
+      tag3: "Keys",
+      tag4: "Vocals",
+      subtitle: "I am lead vocalist, producer & synth player in the band Meraqi.",
+      description: "Not shackled to any one sound, Meraqi's music begins live, weaving together glitchy electronics with soulful songwriting, powerful hooks and instrumental prowess. Deep bass, haunting vocals and grass-roots grooves meet in a kaleidoscopic musical experience falling somewhere between a sweaty underground rave and a smoky late-night vinyl discovery.",
+      audiolink: soundcloudUrlStart+"215826112"+soundcloudUrlEnd
+    },
+
     {
       title: "HYBRID ELECTRONICA",
       tag0: "Composition",
@@ -30,7 +43,7 @@ $(document).ready(function () {
       audiolink: soundcloudUrlStart+"292258996%3Fsecret_token%3Ds-lb2H1"+soundcloudUrlEnd
     },
     {
-      title: "UNRELEASED",
+      title: "SOAR",
       tag0: "Composition",
       tag1: "Production",
       tag2: "Mixing",
@@ -38,19 +51,9 @@ $(document).ready(function () {
       tag4: "Vocals",
       subtitle: "Sample Pack for Launchpad app [Novation]",
       description: "Jazz/chill out/orchestral style pack I designed for Launchpad/Novation. Releasing very soon!",
-      audiolink: soundcloudUrlStart+"292548299%3Fsecret_token%3Ds-jUmSI"+soundcloudUrlEnd
+      audiolink: soundcloudUrlStart+"296011605"+soundcloudUrlEnd
     },
-    {
-      title: "MERAQI - CONTOURS",
-      tag0: "Composition",
-      tag1: "Production",
-      tag2: "Mixing",
-      tag3: "Keys",
-      tag4: "Vocals",
-      subtitle: "I am lead vocalist, producer & synth player in the band Meraqi.",
-      description: "Not shackled to any one sound, Meraqi's music begins live, weaving together glitchy electronics with soulful songwriting, powerful hooks and instrumental prowess. Deep bass, haunting vocals and grass-roots grooves meet in a kaleidoscopic musical experience falling somewhere between a sweaty underground rave and a smoky late-night vinyl discovery.",
-      audiolink: soundcloudUrlStart+"215826112"+soundcloudUrlEnd
-    },
+
     {
       title: "CELESTIAL MOVEMENT",
       tag0: "Composition",
