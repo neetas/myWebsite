@@ -61,6 +61,10 @@ h2{
     padding-left:80px;
 }
 
+.carousel-control{
+  background-image:none !important;
+}
+
 .contact-deets{
   font-size:22px;
 }
