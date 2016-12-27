@@ -63,12 +63,13 @@
   margin: 5px;
   margin-left: 220px;
   font-size: 32px;
+  font-family: serif;
 }
 
 #logo:hover{
     background-image: url('http://i339.photobucket.com/albums/n442/mcrmy_derick/equalizer.gif');
-    background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.8;
     color: transparent;
     cursor: default;
+    min-width: 200px;
 }

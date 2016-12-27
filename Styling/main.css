@@ -37,7 +37,6 @@ a:hover{
 }
 
 a.thumbnail:hover{
-      background-image: url("https://media.giphy.com/media/bG1RKMp7dRV2o/giphy.gif");
       text-decoration: none;
       font-weight: bold;
       color: white;
@@ -51,6 +50,7 @@ a.thumbnail:hover{
 
 h2{
     margin-bottom: 20px;
+    color: white;
 }
 
 .frontmedia{
