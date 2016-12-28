@@ -6,10 +6,7 @@
 
 
 .main{
-position: relative;
   color: rgba(228, 236, 233, 0.76);
-  /*height:100vh;*/
-
 }
 
 .main:after{
@@ -29,7 +26,6 @@ position: relative;
 a{
   color: rgb(235, 239, 246);
   text-decoration: none;
-  width: 200px;
 }
 
 a:hover{

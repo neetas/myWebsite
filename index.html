@@ -14,41 +14,46 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
 <script type="text/javascript" src="js/handlebars.js"></script>
-<script type="text/javascript" src="js/fbVideoEmbed.js"></script>
+<script type="text/javascript" src="js/loadComponents.js"></script>
 <script id="entry-template" type="text/x-handlebars-template">
 <div class="main">
-  <!-- To place front media below top -->
-  <div class="top-underneath col-xs-6 col-md-12">
-  </div>
-  <div class="top">
-    <div class="page-header header">
+  <div class="page-header header">
+    <div class="row">
       <div class="col-xs-6 col-md-10">
-        <div id="logo">
-        <a href="index.html">  <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> n e e t a </a>
+        <div class="col-xs-6 col-md-5" id="logo">
+        <a href="index.html" onclick="showVideos()">  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> n e e t a </a>
+        </div>
+        <div class="col-xs-6 col-md-6">
+          <ul class="nav nav-pills">
+            <li class><a data-toggle="pill" href="#about" class="hvr-push" onClick="hideVideos()"> about</a></li>
+            <li class><a data-toggle="pill" href="#showreel" class="hvr-push" onClick="hideVideos()">showreel</a></li>
+            <li class><a data-toggle="pill" href="#contact" class="hvr-push" onClick="hideVideos()">contact </a></li>
+          </ul>
         </div>
       </div>
       <div class="col-xs-6 col-md-2">
-        <a target="_blank" href="https://www.facebook.com/neetamusik">
-          <img class="hvr-float-shadow" src="Assets/fbicon.png">
-          </img>
-        </a>
-        <a target="_blank" href="https://twitter.com/neetamusic">
-          <img class="hvr-float-shadow" src="Assets/twittericon.png">
-          </img>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/neeta-sarl-1887a818">
-          <img class="hvr-float-shadow" src="Assets/linkedinicon.png">
-          </img>
-        </a>
+        <div class="col-xs-6 col-md-4">
+          <a target="_blank" href="https://www.facebook.com/neetamusik">
+            <img class="hvr-float-shadow" src="Assets/fbicon.png">
+            </img>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a target="_blank" href="https://twitter.com/neetamusic">
+            <img class="hvr-float-shadow" src="Assets/twittericon.png">
+            </img>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a target="_blank" href="https://www.linkedin.com/in/neeta-sarl-1887a818">
+            <img class="hvr-float-shadow" src="Assets/linkedinicon.png">
+            </img>
+          </a>
+        </div>
       </div>
-    </div>
-    <ul class="nav nav-pills">
-      <li class><a data-toggle="pill" href="#about" class="hvr-push"> about</a></li>
-      <li class><a data-toggle="pill" href="#showreel"class="hvr-push">showreel</a></li>
-      <li class><a data-toggle="pill" href="#contact"class="hvr-push">contact </a></li>
-    </ul>
   </div>
-  <div class="frontmedia col-md-12" align="center">
+</div>
+  <div class="frontmedia col-md-12" align="center" id="vidshowreel">
     <BR>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -90,12 +95,13 @@
         </div>
         <div class="col-xs-6 col-md-10">
           <div class="tab-content">
-            <div id="about" class="tab-pane fade">
-              <h2> ABOUT </h2>
+            <div id="frontmedia">
+            </div>
+            <div id="about" href="#about" class="abt tab-pane fade">
+              <BR><BR>
               <p>Freelance vocalist, musician, producer & mix engineer working mainly with electronic music. Using Logic Pro & Ableton. I do the musix with a computer and some gadgetz. </p>
             </div>
             <div id="showreel" class="tab-pane fade">
-              <h2> SHOWREEL </h2>
               <div class="examples">
                 {{#examples}}
                   <div class="example">
@@ -125,7 +131,7 @@
               </div>
             </div>
             <div id="contact" class="tab-pane fade">
-              <h2> CONTACT</h2>
+              <BR><BR>
               <p class="contact-deets"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  neetamusic@gmail.com </p>
               <p class="contact-deets"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 07944337414 </p>
             </div>
