@@ -17,12 +17,10 @@
 }
 
 .nav-pills>li>a:hover{
-  /*background:none;*/
   padding:-5px;
-  /*color: rgb(221, 237, 237);*/
 }
+
 .nav-pills>li.active>a{
-  /*background-color: transparent !important;*/
   color: rgb(32,28,29) !important;
   cursor: default;
 }
