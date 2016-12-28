@@ -55,33 +55,33 @@
 </div>
   <div class="frontmedia col-md-12" align="center" id="vidshowreel">
     <BR>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="videoCarousel" class="carousel slide" data-ride="carousel"  data-interval="false">
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#videoCarousel" data-slide-to="1"></li>
+        <li data-target="#videoCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
         <div class="item active">
           <iframe
             src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fneetamusik%2Fvideos%2F10153860460996529%2F&show_text=0&width=560"
-            width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" align="center">
+            width="768" height="482" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" align="center">
           </iframe>
         </div>
         <div class="item">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/mnGhpKL5InQ" frameborder="0" allowfullscreen>
+          <iframe width="768" height="482" src="https://www.youtube.com/embed/mnGhpKL5InQ" frameborder="0" allowfullscreen>
           </iframe>
         </div>
         <div class="item">
-          <iframe width="560" height="315" src="https://www.youtube.com/v/wTNXdVmiAZU" frameborder="0" allowfullscreen>
+          <iframe width="768" height="482" src="https://www.youtube.com/v/wTNXdVmiAZU" frameborder="0" allowfullscreen>
           </iframe>
         </div>
     </div>
     <!-- Carousel controls -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+    <a class="carousel-control left" href="#videoCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+    <a class="carousel-control right" href="#videoCarousel" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
 </div>
@@ -95,13 +95,11 @@
         </div>
         <div class="col-xs-6 col-md-10">
           <div class="tab-content">
-            <div id="frontmedia">
-            </div>
-            <div id="about" href="#about" class="abt tab-pane fade">
+            <div id="about" class="tab-pane fade">
               <BR><BR>
               <p>Freelance vocalist, musician, producer & mix engineer working mainly with electronic music. Using Logic Pro & Ableton. I do the musix with a computer and some gadgetz. </p>
             </div>
-            <div id="showreel" class="tab-pane fade">
+            <div id="showreel" class="tab-pane">
               <div class="examples">
                 {{#examples}}
                   <div class="example">

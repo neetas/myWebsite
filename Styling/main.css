@@ -62,3 +62,7 @@ h2{
 .contact-deets{
   font-size:22px;
 }
+
+.tab-content{
+  display:none;
+}

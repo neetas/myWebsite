@@ -1,10 +1,10 @@
 function hideVideos() {
-    $("#vidshowreel").hide();
-    $(".tab-content").fadeIn("slow");
-    $(".abt").removeClass("active");
+    $("#vidshowreel").slideUp("slow","linear", function showTabContent(){
+        $(".tab-content").fadeIn("5000");
+    });
 }
 
 function showVideos() {
     $(".tab-content").hide();
-    $("#vidshowreel").fadeIn("slow");
+    $("#vidshowreel").slideDown("slow");
 }
