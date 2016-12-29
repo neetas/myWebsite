@@ -79,6 +79,12 @@ $(document).ready(function () {
       audiolink: soundcloudUrlStart+"234814392"+soundcloudUrlEnd,
       audiolink2: "                              \x3Ciframe class=\"player\" width=\"100%\" height=\"110\" scrolling=\"no\" frameborder=\"no\" src=\"https:\x2F\x2Fw.soundcloud.com\x2Fplayer\x2F?url=https%3A\x2F\x2Fapi.soundcloud.com\x2Ftracks\x2F234814392\&amp;color=0066cc\&amp;auto_play=false\&amp;hide_related=false\&amp;show_comments=true\&amp;show_user=true\&amp;show_reposts=false\"\x3E\x3C\x2Fiframe\x3E\n"
     },
+
+    {
+      title: "EMANATA - QUIRST THENCHER",
+      tag0: "Mixing",
+      audiolink: soundcloudUrlStart+"239703233&amp"+soundcloudUrlEnd
+    }
   ]};
 
   var html = template(context);
