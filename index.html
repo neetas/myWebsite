@@ -19,41 +19,35 @@
 <script id="entry-template" type="text/x-handlebars-template">
 <div class="main">
   <div class="page-header header">
+    <div class="row title-row">
+      <div class="col-sm-9">
+        <div class="col-sm-6" id="logo">
+          <a href="#" onclick="showVideos()">  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> n e e t a </a>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <a target="_blank" href="https://www.facebook.com/neetamusik">
+          <img class="hvr-float-shadow" src="Assets/fbicon.png">
+          </img>
+        </a>
+        <a target="_blank" href="https://twitter.com/neetamusic">
+          <img class="hvr-float-shadow" src="Assets/twittericon.png">
+          </img>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/neeta-sarl-1887a818">
+          <img class="hvr-float-shadow" src="Assets/linkedinicon.png">
+          </img>
+        </a>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-xs-6 col-md-10">
-        <div class="col-xs-6 col-md-5" id="logo">
-        <a href="#" onclick="showVideos()">  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> n e e t a </a>
-        </div>
-        <div class="col-xs-6 col-md-6">
-          <ul class="nav nav-pills">
-            <li class><a data-toggle="pill" href="#about" class="hvr-push" onClick="hideVideos()"> about</a></li>
-            <li class><a data-toggle="pill" href="#showreel" class="hvr-push" onClick="hideVideos()">showreel</a></li>
-            <li class><a data-toggle="pill" href="#contact" class="hvr-push" onClick="hideVideos()">contact </a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-xs-6 col-md-2">
-        <div class="col-xs-6 col-md-4">
-          <a target="_blank" href="https://www.facebook.com/neetamusik">
-            <img class="hvr-float-shadow" src="Assets/fbicon.png">
-            </img>
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a target="_blank" href="https://twitter.com/neetamusic">
-            <img class="hvr-float-shadow" src="Assets/twittericon.png">
-            </img>
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-          <a target="_blank" href="https://www.linkedin.com/in/neeta-sarl-1887a818">
-            <img class="hvr-float-shadow" src="Assets/linkedinicon.png">
-            </img>
-          </a>
-        </div>
-      </div>
+      <ul class="nav nav-pills">
+        <li><a data-toggle="pill" href="#about" class="hvr-push" onClick="hideVideos()"> about</a></li>
+        <li><a data-toggle="pill" href="#showreel" class="hvr-push" onClick="hideVideos()">showreel</a></li>
+        <li><a data-toggle="pill" href="#contact" class="hvr-push" onClick="hideVideos()">contact </a></li>
+      </ul>
+    </div>
   </div>
-</div>
   <div class="frontmedia col-md-12" align="center" id="vidshowreel">
     <BR>
     <div id="videoCarousel" class="carousel slide" data-ride="carousel"  data-interval="false">

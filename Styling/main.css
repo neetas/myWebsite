@@ -4,7 +4,6 @@
     /*background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6tXUF3NaKNynhFEtCWCiUeDxdxVyX5tMnplAemEHvzGqFnVE8');*/*/
 }
 
-
 .main{
   color: rgba(228, 236, 233, 0.76);
 }
@@ -58,7 +57,6 @@ h2{
 .carousel-control{
   background-image:none !important;
 }
-
 
 .tab-content{
   display:none;

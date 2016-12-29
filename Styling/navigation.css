@@ -1,41 +1,25 @@
 .page-header{
-  margin:0;
+  margin-top:0;
+  margin-bottom:0;
   border-bottom: 0;
-  max-height: 70px;
 }
 
-.header{
+.title-row{
   background-color: rgba(13, 17, 33, 0.99);
-  padding-top: 10px;
-  height: 100px;
 }
 
+.nav-pills{
+  padding-left: 15%;
+}
 
 .nav-pills>li>a{
   border:solid;
-  margin-right:100px;
 }
 
-.nav-pills>li>a:hover{
-  padding:-5px;
+.nav-pills>li{
+  padding-right:10%;
+  padding-top:6px;
 }
-
-.nav-pills>li.active>a{
-  color: rgb(32,28,29) !important;
-  cursor: default;
-}
-
-.navigation{
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-  font-size: 32px;
-}
-
-.navigation >li{
-  padding-bottom: 10px;
-}
-
 
 #logo{
   float: left;
