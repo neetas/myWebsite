@@ -81,9 +81,10 @@ $(document).ready(function () {
     },
 
     {
-      title: "EMANATA - QUIRST THENCHER",
+      title: "EMANATA - KEEP OFF THE GRASS",
       tag0: "Mixing",
-      audiolink: soundcloudUrlStart+"239703233&amp"+soundcloudUrlEnd
+      subtitle: "I mixed Emanata's first EP Something Like That",
+      audiolink: soundcloudUrlStart+"272784950"+soundcloudUrlEnd
     }
   ]};
 
