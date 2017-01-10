@@ -58,7 +58,7 @@ $(document).ready(function () {
       tag2: "Mixing",
       tag3: "Sound Design",
       tag4: "Vocals",
-      subtitle: "Sample Pack for Launchpad app [Novation]. This made it into the Top 10 Most Sold in 2016",
+      subtitle: "Sample Pack for Launchpad app [Novation]. This made it into the Top 10 most sold packs of 2016 and was only released in December.",
       description: "Jazz/chill out/orchestral style pack I designed for Launchpad/Novation. Releasing very soon!",
       audiolink: soundcloudUrlStart+"296011605"+soundcloudUrlEnd,
       width: audioWidth,
@@ -118,7 +118,7 @@ $(document).ready(function () {
     },
 
     {
-      title: "AUDIO LOGO FOR 7DIGITAL",
+      title: "BACKGROUND INSTRUMENTAL FOR 7DIGITAL",
       tag0: "Production",
       tag1: "Composition",
       tag2: "Sound Design",
@@ -136,7 +136,7 @@ $(document).ready(function () {
       tag1: "Composition",
       tag2: "Sound Design",
       tag3: "Mixing",
-      subtitle: "Audio Logo I designed to brief for a Technic's promotional piece",
+      subtitle: "Audio Logo I designed to brief for a Technic's promotional piece.",
       audiolink: "https://www.youtube.com/v/u7lE1qXPaZY",
       height: videoHeight
     },
