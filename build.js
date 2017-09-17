@@ -16,16 +16,26 @@ Metalsmith(__dirname)
                 var name = path.basename(file, '.handlebars');
                 Handlebars.registerPartial(name, fs.readFileSync(file, 'utf8'))
             });
-            var index = fs.readFileSync('./templates/showreel.handlebars', 'utf8');
-            var template = Handlebars.compile(index);
-            var data = {
-                examples: Object.keys(examples).map(function (key) {
-                    return examples[key];
-                })
-            };
-            var result = template(data);
-            fs.writeFileSync(path.join(metalsmith._destination, 'index.html'), result);
-            done();
+            glob('pages/*', function (err, templates) {
+                templates.forEach(function(templateFile) {
+                    var contents = fs.readFileSync(templateFile, 'utf8');
+                    var template = Handlebars.compile(contents);
+                    var data = {
+                        examples: Object.keys(examples).map(function (key) {
+                            return examples[key];
+                        })
+                    };
+                    var result = template(data);
+                    fs.writeFileSync(
+                        path.join(
+                            metalsmith._destination,
+                            path.basename(templateFile, '.handlebars') + '.html'
+                        ),
+                        result
+                    )
+                });
+                done();
+            });
         })
     })
     .use(assets({
