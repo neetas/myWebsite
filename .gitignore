@@ -3,3 +3,5 @@ npm-debug.log
 /Hover
 socialicons.psd
 White-Social-Media-icons.jpg
+*.swp
+node_modules

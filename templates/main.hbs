@@ -1,0 +1,34 @@
+<h1>{{title}}</h1>
+
+{{#examples}}
+<div class="example">
+<div class="title">
+  <div id="name">
+    {{title}}
+  </div>
+  <div id="labels">
+    <span class="label label-default">{{tag0}}</span>
+    <span class="label label-default">{{tag1}}</span>
+    <span class="label label-default">{{tag2}}</span>
+    <span class="label label-default">{{tag3}}</span>
+    <span class="label label-default">{{tag4}}</span>
+    <span class="label label-default">{{tag5}}</span>
+  </div>
+</div>
+<div class="subtitle">
+  {{subtitle}}
+</div>
+<a target="_blank" class="showreellinks" href="{{audiolink2}}">
+  {{linkname}}
+</a>
+<BR>
+<a target="_blank" class="showreellinks" href="{{audiolink3}}">
+  {{linkname2}}
+</a>
+<div class="audio">
+  <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src=
+  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{soundCloudId}}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
+  </iframe>
+</div>
+{{/examples}}
+</div>
