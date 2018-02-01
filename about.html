@@ -22,13 +22,13 @@
     <div class="row">
       <div class="col-xs-6 col-md-10">
         <div class="col-xs-6 col-md-4" id="logo">
-        <a href="#" onclick="showVideos()">  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> n e e t a </a>
+        <a href="index.html" onclick="showVideos()">  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> n e e t a </a>
         </div>
         <div class="col-xs-6 col-md-7">
           <ul class="nav nav-pills">
-            <li class><a data-toggle="pill" href="#about" class="hvr-push" onClick="hideVideos()"> about</a></li>
+            <li class="active"><a data-toggle="pill" href="#about" class="hvr-push" onClick="hideVideos()"> about</a></li>
             <li class><a href="showreel.html" class="hvr-push" onClick="hideVideos()">showreel</a></li>
-            <li class><a data-toggle="pill" href="#contact" class="hvr-push" onClick="hideVideos()">contact </a></li>
+            <li class><a href="contact.html" class="hvr-push" onClick="hideVideos()">contact </a></li>
           </ul>
         </div>
       </div>
@@ -48,49 +48,12 @@
       </div>
   </div>
 </div>
-  <div class="frontmedia col-md-12" align="center" id="vidshowreel">
-    <BR>
-    <div id="videoCarousel" class="carousel slide" data-ride="carousel"  data-interval="false">
-    <ol class="carousel-indicators">
-        <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#videoCarousel" data-slide-to="1"></li>
-        <li data-target="#videoCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="item active">
-          <iframe
-            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fneetamusik%2Fvideos%2F10153860460996529%2F&show_text=0&width=560"
-            width="768" height="482" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" align="center">
-          </iframe>
-        </div>
-        <div class="item">
-          <iframe width="768" height="482" src="https://www.youtube.com/embed/mnGhpKL5InQ" frameborder="0" allowfullscreen>
-          </iframe>
-        </div>
-        <div class="item">
-          <iframe width="768" height="482" src="https://www.youtube.com/v/wTNXdVmiAZU" frameborder="0" allowfullscreen>
-          </iframe>
-        </div>
-    </div>
-    <!-- Carousel controls -->
-    <a class="carousel-control left" href="#videoCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="carousel-control right" href="#videoCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-</div>
-    <h1> <small> ARTIST : COMPOSER : MUSICIAN : PRODUCER : MIX ENGINEER : SOUND DESIGN   </small>
-        <h5> specialising in: electronica, downtempo, chill, jazz, soul, hip-hop, eastern, classical, orchestral, acoustic, folk </h5>
-  </div>
   <div class="content">
     <div class="row">
       <div class="container">
         <div class="col-xs-6 col-md-1">
         </div>
         <div class="col-xs-6 col-md-10">
-          <div class="tab-content">
-            <div id="about" class="tab-pane fade">
                 <div class="contentBlock">
                   <div class="title"> ABOUT </div>
                     <p class="blurb">
@@ -106,51 +69,6 @@
                       <figcaption class="caption"> Music Tech Fest, Berlin 2016 </figcaption>
                     </figure>
                 </div>
-            </div>
-            <div id="showreel" class="tab-pane">
-              <div class="examples">
-                {{#examples}}
-                  <div class="example">
-                    <div class="title">
-                      <div id="name">
-                        {{title}}
-                      </div>
-                      <div id="labels">
-                        <span class="label label-default">{{tag0}}</span>
-                        <span class="label label-default">{{tag1}}</span>
-                        <span class="label label-default">{{tag2}}</span>
-                        <span class="label label-default">{{tag3}}</span>
-                        <span class="label label-default">{{tag4}}</span>
-                        <span class="label label-default">{{tag5}}</span>
-                      </div>
-                    </div>
-                    <div class="subtitle">
-                      {{subtitle}}
-                    </div>
-                    <a target="_blank" class="showreellinks" href="{{audiolink2}}">
-                      {{linkname}}
-                    </a>
-                    <BR>
-                    <a target="_blank" class="showreellinks" href="{{audiolink3}}">
-                      {{linkname2}}
-                    </a>
-                    <div class="audio">
-                      <iframe class="player" width="100%" height="110" scrolling="no" frameborder="no" src=
-                      "{{audiolink}}">
-                      </iframe>
-                    </div>
-                  </div>
-                {{/examples}}
-              </div>
-            </div>
-            <div id="contact" class="tab-pane fade">
-              <div class="contentBlock">
-                  <div class="title"> CONTACT </div>
-                <p class="contact-deets"> <span class="glyphicon glyphicon-envelope contact-deets" aria-hidden="true"></span>  neetamusic@gmail.com </p>
-                <p class="contact-deets">  <span class="glyphicon glyphicon-phone contact-deets" aria-hidden="true"></span> 07944337414 </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

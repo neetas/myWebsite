@@ -1,0 +1,28 @@
+.contentBlock{
+  margin-top:10px;
+  background-color: rgb(246, 249, 250);
+  background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern1.png');
+  border: solid 1px rgba(14, 24, 69, 0.55);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: justify;
+  color: rgba(13, 17, 33, 0.99);
+}
+
+.call-meh{
+  color: blue;
+}
+
+.class{
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.caption{
+  font-style: italic;
+  color: rgb(236, 122, 86);
+}
+
+.contact-deets{
+  padding-top:10px;
+  font-size:22px;
+}

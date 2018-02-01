@@ -1,0 +1,36 @@
+<div class="frontmedia col-md-12" align="center" id="vidshowreel">
+    <div id="showreels" class="tab-pane">
+      <div class="examples">
+        {{#examples}}
+          <div class="example">
+            <div class="title">
+              <div id="name">
+                {{title}}
+              </div>
+              <div id="labels">
+                {{#tags}}
+                  <span class="label label-default">{{.}}</span>
+                {{/tags}}
+              </div>
+            </div>
+            <div class="subtitle">
+              {{subtitle}}
+            </div>
+            {{#links}}
+                <a target="_blank" class="showreellinks" href="{{audiolink2}}">
+                  {{.}}
+                </a>
+                <br>
+            {{/links}}
+            {{#if soundCloudId}}
+                <div class="audio">
+                  <iframe class="player" width="100%" height="110px" scrolling="no" frameborder="no" src=
+                  "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{soundCloudId}}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
+                  </iframe>
+                </div>
+            {{/if}}
+          </div>
+        {{/examples}}
+      </div>
+    </div>
+</div>
