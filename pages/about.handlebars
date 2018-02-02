@@ -6,13 +6,24 @@
         <link rel="stylesheet" href="Styling/main.css">
         <link rel="stylesheet" href="Styling/navigation.css">
         <link rel="stylesheet" href="Styling/hovers.css">
-    </head>
-    <body class="background">
-        {{> navbar}}
-        <div class="main">{{> about}}</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/loadComponents.js"></script>
+    </head>
+    <body class="background">
+        {{> logo}}
+              <div class="col-xs-6 col-md-7">
+                <ul class="nav nav-pills">
+                  <li class="active"><a href="about.html" class="hvr-push"> about</a></li>
+                  <li><a href="showreel.html" class="hvr-push">showreel</a></li>
+                  <li><a href="contact.html" class="hvr-push">contact </a></li>
+                </ul>
+              </div>
+            </div>
+        {{> socials}}
+        </div>
+      </div>
+        {{> about}}
+      </div>
     </body>
 </html>
-

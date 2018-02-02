@@ -20,6 +20,7 @@
 }
 
 .nav-pills>li.active>a{
+  background-color: red;
   color: rgb(32,28,29) !important;
   cursor: default;
 }
