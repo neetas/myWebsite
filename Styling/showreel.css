@@ -1,15 +1,11 @@
 
 .examples{
-/*background-color: rgba(14, 24, 69, 0.99);*/
 padding: 10px;
 padding-bottom:0;
-/*border: solid 1px rgba(14, 24, 69, 0.55);*/
-/*border-radius: 5px;*/
 }
 
 .example{
   background-color: rgb(246, 249, 250);
-  background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern1.png');
   border: solid 1px rgba(14, 24, 69, 0.55);
   border-radius: 5px;
   padding: 10px;
@@ -30,6 +26,7 @@ padding-bottom:0;
     color: rgb(233, 80, 31);
     padding-top: 7px;
     font-size: 13px;
+    text-align: left;
 
   }
 
