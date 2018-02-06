@@ -1,7 +1,6 @@
 .background{
-    background-color: rgba(74,49,51, 0.99);
-    background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern2.png');
-    /*background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6tXUF3NaKNynhFEtCWCiUeDxdxVyX5tMnplAemEHvzGqFnVE8');*/*/
+      background-color: rgb(244, 244, 244);
+      background-image: url('https://zotsell.com/themes/newsinglepage/img/patterns/pattern1.png')
 }
 
 .main{
@@ -49,7 +48,6 @@ h2{
 }
 
 .frontmedia{
-    background-color: rgb(32,28,29);
     padding: 10px;
     padding-left:80px;
 }

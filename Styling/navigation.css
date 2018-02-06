@@ -10,20 +10,54 @@
   height: 100px;
 }
 
-.nav-pills>li>a{
+.logo{
+  width:90%;
+  height:90%;
+  max-width:250px;
+}
+
+#logo{
+  float: left;
+  overflow: hidden;
+  padding-left: 5%;
+  max-height: inherit;
+}
+
+#logo:hover{
+    opacity: 0.8;
+    background-repeat: none;
+    color: transparent;
+    cursor: default;
+}
+
+.nav-pills>li{
+ padding-left: 8%;
+}
+
+ .nav-pills>li>a{
   border:solid;
-  margin-left:30px;
+  border-color: transparent;
+}
+
+.nav-pills>li.active:hover{
+  border-color: red;
 }
 
 .nav-pills>li>a:hover{
   padding:-5px;
+  border-color: rgb(213, 224, 228);
+  background-color: rgb(213, 224, 228);
 }
 
-.nav-pills>li.active>a{
-  background-color: red;
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover
+.nav-pills>li.active>a:focus  {
+  background-color: rgb(213, 224, 228) !important;
   color: rgb(32,28,29) !important;
   cursor: default;
+  border-color: rgb(16, 21, 33);
 }
+
 
 .navigation{
   list-style-type: none;
@@ -36,22 +70,6 @@
   padding-bottom: 10px;
 }
 
-
-#logo{
-  float: left;
-  overflow: hidden;
-  max-height: 100px;
-  margin: 5px;
-  padding-left: 100px;
-  font-size: 32px;
-  font-family: serif;
-  margin-right:30px;
-}
-
-#logo:hover{
-    /*background-image: url('http://www.clipartbest.com/cliparts/9ip/XLz/9ipXLzAiE.gif');*/
-    opacity: 0.8;
-    background-repeat: none;
-    color: transparent;
-    cursor: default;
+.socials{
+  float:right;
 }
