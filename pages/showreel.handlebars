@@ -4,20 +4,17 @@
   {{> head}}
   <link rel="stylesheet" href="Styling/showreel.css">
 </head>
-    <body class="background">
-      {{> logo}}
-              <div class="col-md-5" role="navigation">
-                <ul class="nav nav-pills">
-                  <li class><a href="about.html" class="hvr-push"> about</a></li>
-                  <li class="active"><a href="showreel.html">showreel</a></li>
-                  <li class><a href="contact.html" class="hvr-push">contact </a></li>
-                </ul>
-              </div>
-            </div>
-                {{> socials}}
-          </div>
-        </div>
-                    {{> showreelExamples}}
+  <body class="background">
+    <div class="main">
+      {{> navigation}}
+      <div class="hidden-lg hidden-md col-md-6 sm-xs-nav" role="navigation">
+        <ul class="nav nav-pills">
+          <li  class="sm-xs-li"><a href="about.html" class="hvr-push sm-xs-link"> about</a></li>
+          <li class="active sm-xs-li"><a href="showreel.html" class="sm-xs-link">showreel</a></li>
+          <li class="sm-xs-li"><a href="contact.html" class="hvr-push sm-xs-link">contact </a></li>
+        </ul>
+      </div>
+      {{> showreelExamples}}
       </div>
     </body>
 </html>

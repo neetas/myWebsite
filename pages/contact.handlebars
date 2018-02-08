@@ -5,19 +5,16 @@
     <link rel="stylesheet" href="Styling/aboutMeandContact.css">
   </head>
   <body class="background">
-    {{> logo}}
-          <div class="col-md-6" role="navigation">
-            <ul class="nav nav-pills">
-              <li><a href="about.html" class="hvr-push"> about</a></li>
-              <li><a href="showreel.html" class="hvr-push">showreel</a></li>
-              <li class="active"><a href="contact.html">contact </a></li>
-            </ul>
-          </div>
-        </div>
-    {{> socials}}
+    <div class="main">
+      {{> navigation}}
+    <div class="hidden-lg hidden-md col-md-6 sm-xs-nav" role="navigation">
+      <ul class="nav nav-pills">
+        <li  class="sm-xs-li"><a href="about.html" class="hvr-push sm-xs-link"> about</a></li>
+        <li class="sm-xs-li"><a href="showreel.html" class="hvr-push sm-xs-link">showreel</a></li>
+        <li class="active sm-xs-li"><a href="contact.html" class="sm-xs-link">contact </a></li>
+      </ul>
     </div>
   </div>
     {{> contact}}
-  </div>
   </body>
 <html>

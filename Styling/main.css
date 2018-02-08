@@ -56,6 +56,10 @@ h2{
   background-image:none !important;
 }
 
+#videoCarousel{
+  max-width: 1024px;
+}
+
 .tab-content{
   display:none;
 }

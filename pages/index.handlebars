@@ -3,22 +3,17 @@
 <head>
   {{> head}}
 </head>
-    <body class="background">
-      {{> logo}}
-              <div class="col-lg-6 col-md-6 hidden-sm hidden-xs" role="navigation">
-                  <ul class="nav nav-pills">
-                    <li><a href="about.html" class="hvr-push"> about</a></li>
-                    <li><a href="showreel.html" class="hvr-push">showreel</a></li>
-                    <li><a href="contact.html" class="hvr-push">contact </a></li>
-                  </ul>
-              </div>
-              <!-- <div class="navbar navbar-default visible-xs" role="navigation"> -->
-              <!-- </div> -->
-            </div>
-            {{> socials}}
+  <body class="background">
+    <div class="main">
+      {{> navigation}}
+        <div class="hidden-lg hidden-md col-md-6 sm-xs-nav" role="navigation">
+          <ul class="nav nav-pills">
+            <li  class="sm-xs-li"><a href="about.html" class="hvr-push sm-xs-link"> about</a></li>
+            <li class="sm-xs-li"><a href="showreel.html" class="hvr-push sm-xs-link">showreel</a></li>
+            <li class="sm-xs-li"><a href="contact.html" class="hvr-push sm-xs-link">contact </a></li>
+          </ul>
         </div>
       </div>
-      {{> videoCarousel}}
-    </div>
-    </body>
+    {{> videoCarousel}}
+  </body>
 </html>

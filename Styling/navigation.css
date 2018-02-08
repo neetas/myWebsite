@@ -4,10 +4,10 @@
   max-height: 70px;
 }
 
-.header{
+.navbar-default{
   background-color: rgba(13, 17, 33, 0.99);
   padding-top: 10px;
-  height: 100px;
+  width: 100%
 }
 
 .logo{
@@ -16,10 +16,21 @@
   max-width:250px;
 }
 
+.sm-xs-nav{
+  padding-bottom:2%;
+}
+
+.sm-xs-li{
+  padding-right:2%;
+}
+
+.sm-xs-link{
+    color: rgb(44, 111, 174);
+}
+
 #logo{
   float: left;
   overflow: hidden;
-  padding-left: 5%;
   max-height: inherit;
 }
 
@@ -31,7 +42,7 @@
 }
 
 .nav-pills>li{
- padding-left: 8%;
+ padding-left: 5px;
 }
 
  .nav-pills>li>a{
@@ -39,8 +50,8 @@
   border-color: transparent;
 }
 
-.nav-pills>li.active:hover{
-  border-color: red;
+.navbar-toggle{
+  float:none;
 }
 
 .nav-pills>li>a:hover{
@@ -49,6 +60,7 @@
   background-color: rgb(213, 224, 228);
 }
 
+.na
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover
 .nav-pills>li.active>a:focus  {
@@ -73,4 +85,9 @@
 .socials{
   float:right;
   margin-right: 2%;
+}
+
+.toggler{
+  border: none;
+  background-color: transparent;
 }
